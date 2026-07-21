@@ -100,7 +100,7 @@ export default function UeberMichPage() {
                 </p>
               </div>
             </div>
-            <div className="relative mx-auto aspect-[2/3] w-full max-w-sm overflow-hidden rounded-3xl shadow-sm">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-3xl shadow-sm">
               <Image
                 src="/images/portrait-aldinger.jpg"
                 alt="Porträt von Lisa-Maria Aldinger, Psychologische Psychotherapeutin"
