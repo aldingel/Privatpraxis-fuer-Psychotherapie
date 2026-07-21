@@ -53,12 +53,6 @@ export default function HomePage() {
   return (
     <>
       <SiteHeader />
-      {/* Temporärer Banner zur Bildauswahl – wird nach der Entscheidung entfernt */}
-      <div className="bg-accent px-4 py-3 text-center text-sm text-accent-foreground">
-        <Link href="/hero-optionen" className="font-medium underline underline-offset-4">
-          Hier klicken, um die 4 Vorschläge für das Titelbild anzusehen
-        </Link>
-      </div>
       <main>
         {/* Hero */}
         <section className="relative flex min-h-[70vh] items-center justify-center overflow-hidden">
