@@ -69,7 +69,7 @@ export default function UeberMichPage() {
         <PageHero eyebrow="Praxis Aldinger" title="Über mich" />
 
         <section className="mx-auto max-w-6xl px-4 py-16 md:px-6">
-          <div className="grid items-stretch gap-10 lg:grid-cols-[3fr_2fr]">
+          <div className="grid items-start gap-10 md:grid-cols-[3fr_2fr]">
             <div>
               <h2 className="text-3xl font-semibold text-primary">
                 Behandlungsphilosophie
@@ -100,7 +100,7 @@ export default function UeberMichPage() {
                 </p>
               </div>
             </div>
-            <div className="flex items-start justify-center lg:justify-end">
+            <div className="flex items-start justify-center md:justify-end">
               <Image
                 src="/images/portrait-aldinger.jpg"
                 alt="Porträt von Lisa-Maria Aldinger, Psychologische Psychotherapeutin"
