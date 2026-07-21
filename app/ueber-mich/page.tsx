@@ -100,12 +100,13 @@ export default function UeberMichPage() {
                 </p>
               </div>
             </div>
-            <div className="relative min-h-96 overflow-hidden rounded-3xl shadow-sm">
+            <div className="flex items-start justify-center lg:justify-end">
               <Image
                 src="/images/portrait-aldinger.jpg"
                 alt="Porträt von Lisa-Maria Aldinger, Psychologische Psychotherapeutin"
-                fill
-                className="object-cover"
+                width={323}
+                height={484}
+                className="h-auto w-full max-w-xs rounded-3xl shadow-sm"
                 sizes="(max-width: 1024px) 100vw, 40vw"
               />
             </div>
