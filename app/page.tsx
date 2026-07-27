@@ -63,7 +63,7 @@ export default function HomePage() {
             className="object-cover object-right"
           />
           <div
-            className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/30"
+            className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/30 hidden"
             aria-hidden="true"
           />
           <div className="relative z-10 mx-auto w-full max-w-6xl px-4 py-24 md:px-6">
