@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import Link from "next/link"
 import { PageHero } from "@/components/page-hero"
-import { ContactCta } from "@/components/contact-cta"
 
 export const metadata: Metadata = {
   title: "Was ist integrative Verhaltenstherapie? | Psychotherapie Berlin-Pankow",
@@ -96,8 +95,6 @@ export default function VerhaltenstherapiePage() {
           </p>
         </div>
       </section>
-
-      <ContactCta />
     </>
   )
 }

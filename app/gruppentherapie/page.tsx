@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { SiteHeader } from '@/components/site-header'
 import { SiteFooter } from '@/components/site-footer'
-import { ContactCta } from '@/components/contact-cta'
 import { PageHero } from '@/components/page-hero'
 
 export const metadata: Metadata = {
@@ -128,8 +127,6 @@ export default function GruppentherapiePage() {
             </article>
           </div>
         </section>
-
-        <ContactCta />
       </main>
       <SiteFooter />
     </>

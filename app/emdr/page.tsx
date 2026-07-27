@@ -1,6 +1,5 @@
 import type { Metadata } from "next"
 import { PageHero } from "@/components/page-hero"
-import { ContactCta } from "@/components/contact-cta"
 
 export const metadata: Metadata = {
   title: "Was ist EMDR? Traumatherapie | Psychotherapie Berlin-Pankow",
@@ -93,8 +92,6 @@ export default function EmdrPage() {
           </div>
         </div>
       </section>
-
-      <ContactCta />
     </>
   )
 }

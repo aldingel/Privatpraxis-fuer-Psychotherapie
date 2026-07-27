@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { SiteHeader } from '@/components/site-header'
 import { SiteFooter } from '@/components/site-footer'
-import { ContactCta } from '@/components/contact-cta'
 
 const specializations = [
   {
@@ -164,8 +163,6 @@ export default function HomePage() {
             ))}
           </div>
         </section>
-
-        <ContactCta />
       </main>
       <SiteFooter />
     </>
