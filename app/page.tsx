@@ -6,46 +6,46 @@ import { ContactCta } from '@/components/contact-cta'
 
 const specializations = [
   {
-    title: 'Kognitive Verhaltenstherapie',
-    text: 'Wissenschaftlich fundiert, wirksam und individuell auf Sie abgestimmt: Die kognitive Verhaltenstherapie bietet effektive Unterstützung beim gesamten Spektrum psychischer Belastungen, u.a. bei Ängsten, Zwängen, Depressionen, ADHS oder Psychosen.',
-    image: '/images/card-angst.png',
-    alt: 'Blick durch ein grünes Blätterdach in den offenen Himmel',
-    href: '/ablauf-kosten',
-  },
-  {
-    title: 'Gruppentherapie',
-    text: 'In der Gruppentherapie erleben Sie den therapeutischen Prozess gemeinsam mit anderen und profitieren von gegenseitigem Verständnis und Austausch. Das gemeinsame Erarbeiten von Themen fördert Selbstreflexion und neue Perspektiven. In einem geschützten Rahmen können Sie neue Verhaltensweisen ausprobieren und direktes Feedback erhalten.',
-    image: '/images/card-dbt.png',
-    alt: 'Ruhiger Waldsee mit sanften Wellen im Morgenlicht',
-    href: '/gruppentherapie',
-  },
-  {
-    title: 'Schematherapie',
-    text: 'Die Schematherapie hilft Ihnen, alte Muster zu erkennen und sich von ihnen zu lösen. Durch das Verständnis Ihrer inneren Anteile und biografischen Prägungen entwickeln Sie neue Wege, mit schwierigen Situationen umzugehen. So entsteht langfristig mehr Freiheit im Denken, Fühlen und Handeln.',
-    image: '/images/card-schema.png',
-    alt: 'Moosbewachsene Baumwurzeln auf dem Waldboden im warmen Licht',
-    href: '/schematherapie',
-  },
-  {
-    title: 'Traumatherapie & EMDR',
-    text: 'Mit verschiedenen Methoden der Traumatherapie, z.B. Emdr, NET oder IRRT, unterstütze ich Sie dabei, belastende Erfahrungen und Traumata in einem sicheren Rahmen neu zu verarbeiten.',
-    image: '/images/card-emdr.png',
-    alt: 'Sanft fallende Blätter in warmem Licht',
-    href: '/emdr',
-  },
-  {
-    title: 'Queere Menschen & Transitionsbegleitung',
-    text: 'Therapie kann Ihnen einen sicheren und wertschätzenden Reflexiionsraum für Themen wie Identität, Coming-out, Transition, Beziehungen oder Diskriminierungserfahrungen bieten.',
+    title: 'An einem Wendepunkt?',
+    text: 'In meiner Praxis biete ich auch Coaching und Beratung an.',
     image: '/images/card-wendepunkt.png',
     alt: 'Sich gabelnder Waldweg im warmen Morgenlicht',
     href: '/ueber-mich',
   },
   {
-    title: 'Psychedelic Integration',
-    text: 'Psychedelic Integration Therapy unterstützt dabei, intensive oder außergewöhnliche Erfahrungen mit psychedelischen Substanzen in einem sicheren therapeutischen Rahmen zu reflektieren und einzuordnen.',
+    title: 'Wenn Angst das Leben einschränkt',
+    text: 'So werden Sie mithilfe der kognitiven Verhaltenstherapie wieder Chef_in im Kopf.',
+    image: '/images/card-angst.png',
+    alt: 'Blick durch ein grünes Blätterdach in den offenen Himmel',
+    href: '/verhaltenstherapie',
+  },
+  {
+    title: 'Meine innere Welt verstehen',
+    text: 'Wie Sie sich mithilfe der Schematherapie von alten Mustern lösen.',
+    image: '/images/card-schema.png',
+    alt: 'Moosbewachsene Baumwurzeln auf dem Waldboden im warmen Licht',
+    href: '/schematherapie',
+  },
+  {
+    title: 'Dem Leben wieder Farbe geben',
+    text: 'Wie kognitive Verhaltenstherapie bei der Bewältigung von Depression hilft.',
     image: '/images/card-depression.png',
     alt: 'Blumenwiese im goldenen Licht des Sonnenaufgangs',
-    href: '/ueber-mich',
+    href: '/verhaltenstherapie',
+  },
+  {
+    title: 'Chaos der Gefühle',
+    text: 'Mit Dialektisch Behavioraler Therapie (DBT) lernen Sie, mit Gefühlen umzugehen und schädigende Verhaltensmuster zu verändern.',
+    image: '/images/card-dbt.png',
+    alt: 'Ruhiger Waldsee mit sanften Wellen im Morgenlicht',
+    href: '/verhaltenstherapie',
+  },
+  {
+    title: 'Eye Movement Desensitization and Reprocessing (Emdr)',
+    text: 'Emdr hilft, Traumata und belastende Erfahrungen zu verarbeiten.',
+    image: '/images/card-emdr.png',
+    alt: 'Sanft fallende Blätter in warmem Licht',
+    href: '/emdr',
   },
 ]
 
@@ -101,10 +101,10 @@ export default function HomePage() {
               Aktuelle Informationen
             </h2>
             <p className="mt-4 leading-relaxed text-pretty text-muted-foreground">
-              Zur Zeit biete ich Therapieplätze für eine Schematherapiegruppe
-              kombiniert mit Einzelsitzungen an. Nach vorbereitenden
-              Einzelgesprächen finden die Gruppensitzungen am Donnerstag von
-              9-10:50 Uhr statt.
+              Zurzeit biete ich Therapieplätze für eine bald startende
+              Schematherapiegruppe an. Nach einem Erstgespräch finden die
+              Gruppensitzungen am Donnerstagvormittag statt. Meine neue
+              Praxisadresse ist die Grabbeallee 84, 13156 Berlin.
             </p>
             <Link
               href="/gruppentherapie"
@@ -113,6 +113,18 @@ export default function HomePage() {
               Mehr zur Gruppentherapie
             </Link>
           </div>
+        </section>
+
+        {/* Willkommen / Angebot */}
+        <section className="mx-auto max-w-3xl px-4 pb-4 text-center md:px-6">
+          <p className="leading-relaxed text-pretty text-muted-foreground">
+            Diese Seiten bieten Ihnen die Gelegenheit, sich über mein Angebot zu
+            informieren. Ich biete auch Videositzungen an. Bitte beachten Sie,
+            dass es sich um eine Privatpraxis handelt. Eine Behandlung ist daher
+            ausschließlich für Selbstzahler*innen, Privatversicherte sowie
+            gesetzlich Versicherte im Rahmen des Kostenerstattungsverfahrens
+            möglich.
+          </p>
         </section>
 
         {/* Spezialisierungen */}
