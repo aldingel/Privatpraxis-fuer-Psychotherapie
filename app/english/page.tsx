@@ -49,8 +49,8 @@ export default function EnglishPage() {
       <PageHero
         title="Therapy for native and non-native speakers of English"
         subtitle="About"
-        image="/images/hero-forest.png"
-        imageAlt="Serene forest in soft morning light"
+        image="/images/portrait-aldinger.jpg"
+        imageAlt="Portrait of Lisa-Maria Aldinger, psychological psychotherapist"
       />
 
       <section className="mx-auto max-w-3xl px-4 py-16 md:py-20">
