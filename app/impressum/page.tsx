@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function ImpressumPage() {
   return (
     <>
-      <PageHero title="Impressum" image="/images/card-schema.jpg" imageAlt="" />
+      <PageHero title="Impressum" image="/images/about-leaves.png" imageAlt="" />
 
       <section className="mx-auto max-w-3xl px-4 py-16 md:py-20">
         <div className="flex flex-col gap-10">

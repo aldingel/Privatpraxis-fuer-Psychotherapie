@@ -34,30 +34,29 @@
 
 :root {
   color-scheme: light;
-  /* Warm cream background (#efe7da from original site) */
-  --background: oklch(0.936 0.018 81);
-  /* Warm dark gray for body text */
-  --foreground: oklch(0.36 0.011 65);
-  /* Near-white warm card */
-  --card: oklch(0.988 0.006 85);
-  --card-foreground: oklch(0.36 0.011 65);
-  --popover: oklch(0.988 0.006 85);
-  --popover-foreground: oklch(0.36 0.011 65);
-  /* Deep sage-green (headings, buttons) */
-  --primary: oklch(0.44 0.055 140);
-  --primary-foreground: oklch(0.97 0.015 85);
-  /* Soft sage-tinted band */
-  --secondary: oklch(0.9 0.026 120);
-  --secondary-foreground: oklch(0.36 0.011 65);
-  --muted: oklch(0.915 0.02 100);
-  --muted-foreground: oklch(0.44 0.012 80);
-  /* Sage green accent (#9caf88 family, readable for labels/icons) */
-  --accent: oklch(0.5 0.062 135);
-  --accent-foreground: oklch(0.97 0.015 85);
+  /* Warm cream background */
+  --background: oklch(0.975 0.009 85);
+  /* Soft charcoal / anthracite */
+  --foreground: oklch(0.33 0.012 105);
+  --card: oklch(0.99 0.006 90);
+  --card-foreground: oklch(0.33 0.012 105);
+  --popover: oklch(0.99 0.006 90);
+  --popover-foreground: oklch(0.33 0.012 105);
+  /* Deep forest green */
+  --primary: oklch(0.42 0.06 145);
+  --primary-foreground: oklch(0.975 0.009 85);
+  /* Warm beige / sand */
+  --secondary: oklch(0.93 0.016 88);
+  --secondary-foreground: oklch(0.33 0.012 105);
+  --muted: oklch(0.945 0.013 88);
+  --muted-foreground: oklch(0.5 0.018 110);
+  /* Sage green */
+  --accent: oklch(0.62 0.05 135);
+  --accent-foreground: oklch(0.985 0.006 90);
   --destructive: oklch(0.55 0.18 27);
-  --border: #ffffff;
-  --input: oklch(0.865 0.016 90);
-  --ring: oklch(0.44 0.055 140);
+  --border: oklch(0.895 0.014 90);
+  --input: oklch(0.895 0.014 90);
+  --ring: oklch(0.62 0.05 135);
   --radius: 1rem;
 }
 
