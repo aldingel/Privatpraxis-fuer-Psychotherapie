@@ -64,7 +64,7 @@ const sections: Array<{ heading: string; paragraphs: string[] }> = [
 export default function DatenschutzPage() {
   return (
     <>
-      <PageHero title="Datenschutzerklärung" image="/images/card-schema.jpg" imageAlt="" />
+      <PageHero title="Datenschutzerklärung" image="/images/about-leaves.png" imageAlt="" />
 
       <section className="mx-auto max-w-3xl px-4 py-16 md:py-20">
         <div className="flex flex-col gap-12">

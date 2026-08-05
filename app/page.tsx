@@ -7,43 +7,43 @@ const specializations = [
   {
     title: 'Kognitive Verhaltenstherapie',
     text: 'Wissenschaftlich fundiert, wirksam und individuell auf Sie abgestimmt: Die kognitive Verhaltenstherapie bietet effektive Unterstützung beim gesamten Spektrum psychischer Belastungen, u.a. bei Ängsten, Zwängen, Depressionen, ADHS oder Psychosen.',
-    image: '/images/card-kognitive.jpg',
-    alt: 'Sukkulente in einem schlichten Betontopf vor hellem Hintergrund',
-    href: '/verhaltenstherapie',
+    image: '/images/card-angst.png',
+    alt: 'Blick durch ein grünes Blätterdach in den offenen Himmel',
+    href: '/ablauf-kosten',
   },
   {
     title: 'Gruppentherapie',
-    text: 'In der Gruppentherapie erleben Sie den therapeutischen Prozess gemeinsam mit anderen und profitieren von gegenseitigem Verständnis und Austausch. Das gemeinsame Erarbeiten von Themen fördert Selbstreflexion und neue Perspektiven. In einem geschützten Rahmen können Sie neue Verhaltensweisen ausprobieren und Feedback erhalten.',
-    image: '/images/card-gruppe.jpg',
-    alt: 'Möwen, die gemeinsam über einen hellen Himmel fliegen',
+    text: 'In der Gruppentherapie erleben Sie den therapeutischen Prozess gemeinsam mit anderen und profitieren von gegenseitigem Verständnis und Austausch. Das gemeinsame Erarbeiten von Themen fördert Selbstreflexion und neue Perspektiven. In einem geschützten Rahmen können Sie neue Verhaltensweisen ausprobieren und direktes Feedback erhalten.',
+    image: '/images/card-dbt.png',
+    alt: 'Ruhiger Waldsee mit sanften Wellen im Morgenlicht',
     href: '/gruppentherapie',
   },
   {
     title: 'Schematherapie',
     text: 'Die Schematherapie hilft Ihnen, alte Muster zu erkennen und sich von ihnen zu lösen. Durch das Verständnis Ihrer inneren Anteile und biografischen Prägungen entwickeln Sie neue Wege, mit schwierigen Situationen umzugehen. So entsteht langfristig mehr Freiheit im Denken, Fühlen und Handeln.',
-    image: '/images/card-schema.jpg',
-    alt: 'Einzelnes grünes Blatt vor hellem Hintergrund',
+    image: '/images/card-schema.png',
+    alt: 'Moosbewachsene Baumwurzeln auf dem Waldboden im warmen Licht',
     href: '/schematherapie',
   },
   {
     title: 'Traumatherapie & EMDR',
-    text: 'Mit verschiedenen Methoden der Traumatherapie, z.B. Emdr, NET oder IRRT, unterstütze ich Sie dabei, belastende Erfahrungen und Traumata in einem sicheren Rahmen zu verarbeiten.',
-    image: '/images/card-trauma.jpg',
-    alt: 'Sanfte Schatten von Palmblättern auf einer hellen Wand',
+    text: 'Mit verschiedenen Methoden der Traumatherapie, z.B. Emdr, NET oder IRRT, unterstütze ich Sie dabei, belastende Erfahrungen und Traumata in einem sicheren Rahmen neu zu verarbeiten.',
+    image: '/images/card-emdr.png',
+    alt: 'Sanft fallende Blätter in warmem Licht',
     href: '/emdr',
   },
   {
     title: 'Queere Menschen & Transitionsbegleitung',
-    text: 'Therapie kann einen sicheren und wertschätzenden Reflexiionsraum für Themen wie Identität, Coming-out, Transition, Beziehungen oder Diskriminierungserfahrungen bieten.',
-    image: '/images/card-queer.jpg',
-    alt: 'Regenbogen zwischen weichen Wolken am Himmel',
+    text: 'Therapie kann Ihnen einen sicheren und wertschätzenden Reflexiionsraum für Themen wie Identität, Coming-out, Transition, Beziehungen oder Diskriminierungserfahrungen bieten.',
+    image: '/images/card-wendepunkt.png',
+    alt: 'Sich gabelnder Waldweg im warmen Morgenlicht',
     href: '/ueber-mich',
   },
   {
     title: 'Psychedelic Integration',
-    text: 'Psychedelische Integration hilft, Erfahrungen mit veränderten Bewusstseinszuständen – ob substanzinduziert oder nicht – zu verarbeiten und nachhaltig in Ihr alltägliches Leben zu integrieren.',
-    image: '/images/card-psychedelic.jpg',
-    alt: 'Grüne Blätter einer Zimmerpflanze vor hellem Hintergrund',
+    text: 'Psychedelic Integration Therapy unterstützt dabei, intensive oder außergewöhnliche Erfahrungen mit psychedelischen Substanzen in einem sicheren therapeutischen Rahmen zu reflektieren und einzuordnen.',
+    image: '/images/card-depression.png',
+    alt: 'Blumenwiese im goldenen Licht des Sonnenaufgangs',
     href: '/ueber-mich',
   },
 ]
@@ -54,51 +54,41 @@ export default function HomePage() {
       <SiteHeader />
       <main>
         {/* Hero */}
-        <section className="relative flex min-h-[70vh] items-center overflow-hidden">
+        <section className="relative flex min-h-[70vh] items-center justify-center overflow-hidden">
           <Image
-            src="/images/hero-home.jpg"
+            src="/images/hero-forest.png"
             alt=""
             fill
             priority
-            className="object-cover object-right"
+            className="object-cover"
           />
-          <div
-            className="absolute inset-0 bg-gradient-to-r from-background via-background/85 to-background/30 hidden"
-            aria-hidden="true"
-          />
-          <div className="relative z-10 mx-auto w-full max-w-6xl px-4 py-24 md:px-6">
-            <div className="max-w-xl">
-              <p className="text-sm font-medium tracking-widest text-accent uppercase">
-                Privatpraxis für Psychotherapie
-              </p>
-              <h1 className="mt-4 text-5xl font-semibold text-balance text-primary md:text-6xl">
-                Lisa-Maria Aldinger
-              </h1>
-              <p className="mt-4 text-lg text-pretty text-foreground">
-                Psychologische Psychotherapeutin · Verhaltenstherapie ·
-                Berlin-Pankow
-              </p>
-              <p className="mt-4 leading-relaxed text-pretty text-muted-foreground">
-                Willkommen auf meiner Praxis-Website. Hier finden Sie
-                Informationen zu meinem therapeutischen Angebot, dem Ablauf einer
-                Therapie, den Kosten sowie weitere organisatorische Hinweise.
-              </p>
-              <div className="mt-8 flex flex-wrap items-center gap-3">
-                <a
-                  href="https://complicated.life/book/cognitive-behavioural-therapy-cbt-psychotherapist-emdr-psychotherapist-lisa-maria-aldinger"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center rounded-full bg-primary px-7 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
-                >
-                  Termin buchen
-                </a>
-                <a
-                  href="mailto:pt.aldinger@gmail.com"
-                  className="inline-flex items-center rounded-full border border-primary px-7 py-3 text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
-                >
-                  Email schreiben
-                </a>
-              </div>
+          <div className="absolute inset-0 bg-primary/40" aria-hidden="true" />
+          <div className="relative z-10 mx-auto max-w-3xl px-4 py-24 text-center text-primary-foreground md:px-6">
+            <p className="text-sm font-medium tracking-widest uppercase">
+              Privatpraxis für Psychotherapie
+            </p>
+            <h1 className="mt-4 text-5xl font-semibold text-balance md:text-6xl">
+              Lisa-Maria Aldinger
+            </h1>
+            <p className="mt-4 text-lg text-pretty opacity-90">
+              Psychologische Psychotherapeutin · Verhaltenstherapie ·
+              Berlin-Pankow
+            </p>
+            <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+              <a
+                href="https://complicated.life/book/cognitive-behavioural-therapy-cbt-psychotherapist-emdr-psychotherapist-lisa-maria-aldinger"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center rounded-full bg-background px-7 py-3 text-sm font-medium text-primary transition-opacity hover:opacity-90"
+              >
+                Termin buchen
+              </a>
+              <a
+                href="mailto:pt.aldinger@gmail.com"
+                className="inline-flex items-center rounded-full border border-primary-foreground px-7 py-3 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary-foreground hover:text-primary"
+              >
+                Email schreiben
+              </a>
             </div>
           </div>
         </section>

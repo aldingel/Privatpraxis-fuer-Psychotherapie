@@ -14,8 +14,8 @@ export default function VerhaltenstherapiePage() {
       <PageHero
         title="Integrative Verhaltenstherapie"
         subtitle="Was bedeutet Verhaltenstherapie?"
-        image="/images/card-kognitive.jpg"
-        imageAlt="Sukkulente in einem schlichten Betontopf vor hellem Hintergrund"
+        image="/images/card-angst.png"
+        imageAlt="Blick durch grüne Baumkronen in den offenen Himmel"
       />
 
       <section className="mx-auto max-w-3xl px-4 py-16 md:py-20">

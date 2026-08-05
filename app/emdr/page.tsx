@@ -13,8 +13,8 @@ export default function EmdrPage() {
       <PageHero
         title="Traumatherapie mit EMDR"
         subtitle="Was ist EMDR?"
-        image="/images/card-trauma.jpg"
-        imageAlt="Sanfte Schatten von Palmblättern auf einer hellen Wand"
+        image="/images/card-emdr.png"
+        imageAlt="Sanft fallende Blätter in warmem Licht"
       />
 
       <section className="mx-auto max-w-3xl px-4 py-16 md:py-20">
