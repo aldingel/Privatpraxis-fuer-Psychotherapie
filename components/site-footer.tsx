@@ -45,31 +45,15 @@ export function SiteFooter() {
           <h2 className="text-sm font-medium tracking-widest uppercase opacity-80">
             Notfälle und Krisen
           </h2>
-          <ul className="mt-4 flex flex-col gap-4 text-sm leading-relaxed opacity-90">
-            <li>
-              <strong>Berliner Krisendienst</strong>
-              <br />
-              030 390 63 00 · rund um die Uhr
-              <br />
-              Unterstützung in emotionalen Notlagen
-            </li>
-            <li>
-              <strong>Neuhland</strong>
-              <br />
-              030 873 01 11 · Mo – Fr 9 – 18 Uhr
-              <br />
-              Hilfe für Kinder, Jugendliche und junge Erwachsene in suizidalen
-              Krisen
-            </li>
-            <li>
-              <strong>LARA</strong>
-              <br />
-              030 216 88 88 · Mo – Fr 9 – 18 Uhr
-              <br />
-              Unterstützung für Frauen nach sexueller Belästigung, Missbrauch
-              oder Vergewaltigung
-            </li>
-          </ul>
+          <p className="mt-4 text-sm leading-relaxed opacity-90">
+            Der <strong>Berliner Krisendienst</strong> ist 24 Stunden am Tag
+            erreichbar (030 390 63 00) und unterstützt in emotionalen Notlagen.{' '}
+            <strong>Neuhland</strong> berät und hilft Kindern, Jugendlichen und
+            jungen Erwachsenen in suizidalen Krisen (030 873 01 11, Mo - Fr 9 -
+            18 Uhr). <strong>LARA</strong> unterstützt Frauen, die Opfer von
+            sexueller Belästigung, Missbrauch oder Vergewaltigung geworden sind
+            (030 216 88 88, Mo - Fr 9 - 18 Uhr).
+          </p>
         </div>
       </div>
 
